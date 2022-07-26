@@ -2,7 +2,7 @@ package BasicQuestionsUsingFunctions;
 
 import java.util.Scanner;
 
-class Patterns {
+class Solution {
     int num;
     void pattern1() {
         // *****
@@ -627,44 +627,44 @@ public class PatternQuestions {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        Patterns pattern = new Patterns();
+        Solution sol = new Solution();
         System.out.print("Enter the number: ");
-        pattern.num = input.nextInt();
-        pattern.pattern1();
-        pattern.pattern2();
-        pattern.pattern3();
-        pattern.pattern4();
-        pattern.pattern5();
-        pattern.pattern6();
-        pattern.pattern7();
-        pattern.pattern8();
-        pattern.pattern9();
-        pattern.pattern10();
-        pattern.pattern11();
-        pattern.pattern12();
-        pattern.pattern13();
-        pattern.pattern14();
-        pattern.pattern15();
-        pattern.pattern16();
-        pattern.pattern17();
-        pattern.pattern18();
-        pattern.pattern19();
-        pattern.pattern20();
-        pattern.pattern21();
-        pattern.pattern22();
-        pattern.pattern23();
-        pattern.pattern24();
-        pattern.pattern25();
-        pattern.pattern26();
-        pattern.pattern27();
-        pattern.pattern28();
-        pattern.pattern29();
-        pattern.pattern30();
-        pattern.pattern31();
-        pattern.pattern32();
-        pattern.pattern33();
-        pattern.pattern34();
-        pattern.pattern35();
+        sol.num = input.nextInt();
+        sol.pattern1();
+        sol.pattern2();
+        sol.pattern3();
+        sol.pattern4();
+        sol.pattern5();
+        sol.pattern6();
+        sol.pattern7();
+        sol.pattern8();
+        sol.pattern9();
+        sol.pattern10();
+        sol.pattern11();
+        sol.pattern12();
+        sol.pattern13();
+        sol.pattern14();
+        sol.pattern15();
+        sol.pattern16();
+        sol.pattern17();
+        sol.pattern18();
+        sol.pattern19();
+        sol.pattern20();
+        sol.pattern21();
+        sol.pattern22();
+        sol.pattern23();
+        sol.pattern24();
+        sol.pattern25();
+        sol.pattern26();
+        sol.pattern27();
+        sol.pattern28();
+        sol.pattern29();
+        sol.pattern30();
+        sol.pattern31();
+        sol.pattern32();
+        sol.pattern33();
+        sol.pattern34();
+        sol.pattern35();
 
         input.close();
     }

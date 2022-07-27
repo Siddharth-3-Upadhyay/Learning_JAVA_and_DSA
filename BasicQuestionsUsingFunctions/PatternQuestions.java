@@ -2,9 +2,53 @@ package BasicQuestionsUsingFunctions;
 
 import java.util.Scanner;
 
-class Solution {
-    int num;
-    void pattern1() {
+public class PatternQuestions {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int num;
+        System.out.print("Enter the number: ");
+        num = input.nextInt();
+
+        pattern1(num);
+        pattern2(num);
+        pattern3(num);
+        pattern4(num);
+        pattern5(num);
+        pattern6(num);
+        pattern7(num);
+        pattern8(num);
+        pattern9(num);
+        pattern10(num);
+        pattern11(num);
+        pattern12(num);
+        pattern13(num);
+        pattern14(num);
+        pattern15(num);
+        pattern16(num);
+        pattern17(num);
+        pattern18(num);
+        pattern19(num);
+        pattern20(num);
+        pattern21(num);
+        pattern22(num);
+        pattern23(num);
+        pattern24(num);
+        pattern25(num);
+        pattern26(num);
+        pattern27(num);
+        pattern28(num);
+        pattern29(num);
+        pattern30(num);
+        pattern31(num);
+        pattern32(num);
+        pattern33(num);
+        pattern34(num);
+        pattern35(num);
+
+        input.close();
+    }
+    static void pattern1(int num) {
         // *****
         // *****
         // *****
@@ -19,7 +63,7 @@ class Solution {
         }
     }
     // all triangle type patterns.
-    void pattern2() {
+    static void pattern2(int num) {
         // *
         // **
         // ***
@@ -33,7 +77,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern3() {
+    static void pattern3(int num) {
         // *****
         // ****
         // ***
@@ -47,7 +91,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern4() {
+    static void pattern4(int num) {
         // 1
         // 12
         // 123
@@ -61,7 +105,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern5() {
+    static void pattern5(int num) {
         // *
         // **
         // ***
@@ -80,7 +124,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern6() {
+    static void pattern6(int num) {
         //     *
         //    **
         //   ***
@@ -97,7 +141,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern7() {
+    static void pattern7(int num) {
         // *****
         //  ****
         //   ***
@@ -114,7 +158,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern8() {
+    static void pattern8(int num) {
         //     *
         //    ***
         //   *****
@@ -131,7 +175,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern9() {
+    static void pattern9(int num) {
         // *********
         //  *******
         //   *****
@@ -149,7 +193,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern10() {
+    static void pattern10(int num) {
         //     *
         //    * *
         //   * * *
@@ -166,7 +210,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern11() {
+    static void pattern11(int num) {
         // * * * * *
         //  * * * *
         //   * * *
@@ -183,7 +227,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern12() {
+    static void pattern12(int num) {
         // * * * * *
         //  * * * *
         //   * * *
@@ -206,7 +250,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern13() {
+    static void pattern13(int num) {
         //     *
         //    * *
         //   *   *
@@ -224,7 +268,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern14() {
+    static void pattern14(int num) {
         // *********
         //  *     *
         //   *   *
@@ -242,7 +286,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern15() {
+    static void pattern15(int num) {
         //     *
         //    * *
         //   *   *
@@ -265,7 +309,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern16() {
+    static void pattern16(int num) {
         //           1
         //         1   1
         //       1   2   1
@@ -285,7 +329,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern17() { // ?? partially completed.
+    static void pattern17(int num) { // ?? partially completed.
         //      1
         //     212
         //    32123
@@ -306,7 +350,7 @@ class Solution {
         }
 
     }
-    void pattern18() {
+    static void pattern18(int num) {
         //   **********
         //   ****  ****
         //   ***    ***
@@ -339,7 +383,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern19() {
+    static void pattern19(int num) {
         // *        *
         // **      **
         // ***    ***
@@ -362,7 +406,7 @@ class Solution {
         }
 
     }
-    void pattern20() {
+    static void pattern20(int num) {
         // ****
         // *  *
         // *  *
@@ -380,7 +424,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern21() {
+    static void pattern21(int num) {
         // 1
         // 2  3
         // 4  5  6
@@ -396,7 +440,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern22() {
+    static void pattern22(int num) {
         // 1
         // 0 1
         // 1 0 1
@@ -415,7 +459,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern23() {
+    static void pattern23(int num) {
         //       *      *
         //     *   *  *   *
         //   *       *      *
@@ -428,7 +472,7 @@ class Solution {
         }
          */
     }
-    void pattern24() {
+    static void pattern24(int num) {
         // *        *
         // **      **
         // * *    * *
@@ -457,7 +501,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern25() {
+    static void pattern25(int num) {
         //       *****
         //      *   *
         //     *   *
@@ -473,7 +517,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern26() {
+    static void pattern26(int num) {
         // 1 1 1 1 1 1
         // 2 2 2 2 2
         // 3 3 3 3
@@ -488,14 +532,14 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern27() {
+    static void pattern27(int num) {
         // 1 2 3 4  17 18 19 20
         //   5 6 7  14 15 16
         //     8 9  12 13
         //       10 11
         System.out.println("Solution : 27 -------------------------------------------");
     }
-    void pattern28() {
+    static void pattern28(int num) {
         //      *
         //     * *
         //    * * *
@@ -515,7 +559,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern29() {
+    static void pattern29(int num) {
         //    *        *
         //    **      **
         //    ***    ***
@@ -543,7 +587,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern30() {
+    static void pattern30(int num) {
         //         1
         //       2 1 2
         //     3 2 1 2 3
@@ -565,7 +609,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern31() {
+    static void pattern31(int num) {
         // 4 4 4 4 4 4 4
         // 4 3 3 3 3 3 4
         // 4 3 2 2 2 3 4
@@ -581,7 +625,7 @@ class Solution {
             System.out.println();
         }
     }
-    void pattern32() {
+    static void pattern32(int num) {
         // E
         // D E
         // C D E
@@ -589,7 +633,7 @@ class Solution {
         // A B C D E
         System.out.println("Solution : 32 -------------------------------------------");
     }
-    void pattern33() {
+    static void pattern33(int num) {
         // a
         // B c
         // D e F
@@ -597,7 +641,7 @@ class Solution {
         // k L m N o
         System.out.println("Solution : 33 -------------------------------------------");
     }
-    void pattern34() {
+    static void pattern34(int num) {
         // E D C B A
         // D C B A
         // C B A
@@ -605,7 +649,7 @@ class Solution {
         // A
         System.out.println("Solution : 34 -------------------------------------------");
     }
-    void pattern35() {
+    static void pattern35(int num) {
         // 1      1
         // 12    21
         // 123  321
@@ -619,53 +663,5 @@ class Solution {
             }
             System.out.println();
         }
-    }
-
-}
-
-public class PatternQuestions {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        Solution sol = new Solution();
-        System.out.print("Enter the number: ");
-        sol.num = input.nextInt();
-        sol.pattern1();
-        sol.pattern2();
-        sol.pattern3();
-        sol.pattern4();
-        sol.pattern5();
-        sol.pattern6();
-        sol.pattern7();
-        sol.pattern8();
-        sol.pattern9();
-        sol.pattern10();
-        sol.pattern11();
-        sol.pattern12();
-        sol.pattern13();
-        sol.pattern14();
-        sol.pattern15();
-        sol.pattern16();
-        sol.pattern17();
-        sol.pattern18();
-        sol.pattern19();
-        sol.pattern20();
-        sol.pattern21();
-        sol.pattern22();
-        sol.pattern23();
-        sol.pattern24();
-        sol.pattern25();
-        sol.pattern26();
-        sol.pattern27();
-        sol.pattern28();
-        sol.pattern29();
-        sol.pattern30();
-        sol.pattern31();
-        sol.pattern32();
-        sol.pattern33();
-        sol.pattern34();
-        sol.pattern35();
-
-        input.close();
     }
 }

@@ -9,7 +9,8 @@ public class Area {
 //          areaOfCircle();
 //        areaOfTriangle();
 //        areaOfRectangle();
-        areaOfParallelogram();
+//        areaOfParallelogram();
+        areaOfRhombus();
     }
     static void areaOfCircle() {
         /* Area of Circle = PI * r * r */
@@ -51,5 +52,15 @@ public class Area {
         height = input.nextFloat();
         area = base * height;
         System.out.println("Area of Parallelogram: " + area + " sq.m");
+    }
+    static void areaOfRhombus() {
+        /* Area of Rhombus = base * height */
+        float base, height, area;
+        System.out.print("Enter the base(m) and height(m) of Rhombus: ");
+        base = input.nextFloat();
+        height = input.nextFloat();
+        area = base * height;
+        System.out.println("Area of Rhombus: " + area + " sq.m");
+
     }
 }

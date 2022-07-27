@@ -6,10 +6,12 @@ public class Area {
     static final float PI = 3.14159F;
     static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-//          areaOfCircle();
-//        areaOfTriangle();
-//        areaOfRectangle();
-//        areaOfParallelogram();
+        areaOfCircle();
+        areaOfTriangle();
+        areaOfIsoscelesTriangle();
+        areaOfEquilateralTriangle();
+        areaOfRectangle();
+        areaOfParallelogram();
         areaOfRhombus();
     }
     static void areaOfCircle() {
@@ -28,6 +30,23 @@ public class Area {
         height = input.nextFloat();
         float area = 0.5F * base * height;
         System.out.println("Area of Triangle: " + area + " sq.m");
+    }
+    static void areaOfIsoscelesTriangle() {
+        /* Area of Isosceles Triangle = 0.5 * base * height */
+        float base, height, area;
+        System.out.print("Enter the base(m) and height(m) of Isosceles Triangle: ");
+        base = input.nextFloat();
+        height = input.nextFloat();
+        area = 0.5F * base * height;
+        System.out.println("Area of Isosceles Triangle: " + area + " sq.m");
+    }
+    static void areaOfEquilateralTriangle() {
+        /* Area of Equilateral Triangle = (√3/4) * a^2 */
+        float length, area;
+        System.out.print("Enter the length of equilateral triangle: ");
+        length = input.nextFloat();
+        area = (1.732050F / 4) * (length * length);
+        System.out.println("Area of Equilateral Triangle: " + area + " sq.m");
     }
     static void areaOfRectangle() {
         /* Area of Rectangle = length * breadth */

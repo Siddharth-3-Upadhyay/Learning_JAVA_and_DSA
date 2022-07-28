@@ -7,7 +7,8 @@ public class Volume {
     static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
 //        volumeOfCone();
-        volumeOfCylinder();
+//        volumeOfCylinder();
+        volumeOfSphere();
     }
     static void volumeOfCone() {
         /* Volume of Cone = (PI * radius * radius * height) / 3 */
@@ -26,5 +27,13 @@ public class Volume {
         height = input.nextFloat();
         volume = PI * (radius * radius) * height;
         System.out.println("Volume of Cylinder: " + volume + " cubic m");
+    }
+    static void volumeOfSphere() {
+        /* Volume of Sphere = 4/3 (PI * radius * radius * radius) */
+        float radius, volume;
+        System.out.print("Enter the radius(m) of Sphere: ");
+        radius = input.nextFloat();
+        volume = 4 * (PI * radius * radius * radius) / 3;
+        System.out.println("Volume of Sphere: " + volume + " cubic m");
     }
 }

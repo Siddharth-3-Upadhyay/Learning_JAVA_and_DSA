@@ -6,8 +6,8 @@ public class Volume {
     static final float PI = 3.14159F;
     static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-//        volumeOfCone();
-//        volumeOfCylinder();
+        volumeOfCone();
+        volumeOfCylinder();
         volumeOfSphere();
     }
     static void volumeOfCone() {

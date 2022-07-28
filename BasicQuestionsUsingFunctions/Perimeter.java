@@ -10,7 +10,7 @@ public class Perimeter {
         perimeterOfEquilateralTriangle();
         perimeterOfParallelogram();
         perimeterOfRectangle();
-        perimeterOfSqaure();
+        perimeterOfSquare();
         perimeterOfRhombus();
     }
     static void perimeterOfCircle() {
@@ -47,13 +47,13 @@ public class Perimeter {
         perimeter = 2 * (length + breadth);
         System.out.println("Perimeter of Rectangle: " + perimeter + " m");
     }
-    static void perimeterOfSqaure() {
-        /* Perimeter of Sqaure = 4 * length */
+    static void perimeterOfSquare() {
+        /* Perimeter of Square = 4 * length */
         float length, perimeter;
-        System.out.print("Enter the length(m) of Sqaure: ");
+        System.out.print("Enter the length(m) of Square: ");
         length = input.nextFloat();
         perimeter = 4 * length;
-        System.out.println("Perimeter of Sqaure: " + perimeter + " m");
+        System.out.println("Perimeter of Square: " + perimeter + " m");
     }
     static void perimeterOfRhombus() {
         /* Perimeter of Rhombus = 4 * length */

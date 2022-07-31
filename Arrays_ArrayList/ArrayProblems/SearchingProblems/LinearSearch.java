@@ -18,6 +18,7 @@ public class LinearSearch {
         System.out.println(searchIn2DArray(arr2D, target2));
         int[] answer3 = search2D(arr2D, target2);
         System.out.println(Arrays.toString(answer3));
+        System.out.println("Maximum in 2D Array: " + maxIn2D(arr2D));
     }
     static int searchInRange(int[] arr, int target, int start, int end) {
         /* return the index if found, else return -1 */
@@ -27,7 +28,7 @@ public class LinearSearch {
         return -1;
     }
     static int minInArray(int[] arr) {
-        int minElement = arr[0]; // 18.
+        int minElement = arr[0];
         for (int i : arr) {
             if (i < minElement) minElement = i;
         }
@@ -48,5 +49,14 @@ public class LinearSearch {
             }
         }
         return new int[] {-1, -1};
+    }
+    static int maxIn2D(int[][] arr) {
+        int maxElement = arr[0][0];
+        for (int[] i : arr) {
+            for (int j : i) {
+                if (j > maxElement) maxElement = j;
+            }
+        }
+        return maxElement;
     }
 }

@@ -6,6 +6,13 @@ public class LinearSearch {
         int target = 14;
         System.out.println(searchInRange(arr, target, 1, 4));
         System.out.println(minInArray(arr));
+        int[][] arr2D = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+        int target2 = 12;
+        System.out.println(searchIn2DArray(arr2D, target2));
     }
     static int searchInRange(int[] arr, int target, int start, int end) {
         /* return the index if found, else return -1 */
@@ -20,5 +27,13 @@ public class LinearSearch {
             if (i < minElement) minElement = i;
         }
         return minElement;
+    }
+    static int searchIn2DArray(int[][] arr, int target) {
+        for (int[] i : arr) {
+            for (int j : i) {
+                if (j == target) return j;
+            }
+        }
+        return -1;
     }
 }

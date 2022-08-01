@@ -10,6 +10,8 @@ public class BinarySearch {
         int target = -12;
         System.out.println(binarySearchAscending(arrAsc, target));
         System.out.println(binarySearchDescending(arrDes, target));
+        System.out.println(orderAgnosticBS(arrAsc, target));
+        System.out.println(orderAgnosticBS(arrDes, target));
     }
     static int binarySearchAscending(int[] arr, int target) {
         int start = 0;
@@ -39,6 +41,24 @@ public class BinarySearch {
             } else {
                 // Search in LHS.
                 end = midIndex - 1;
+            }
+        }
+        return -1;
+    }
+    static int orderAgnosticBS(int[] arr, int target) {
+        int start = 0;
+        int end = arr.length - 1;
+        /* Check the order of an array */
+        boolean isAscending = arr[start] < arr[end];
+        while (start <= end) {
+            int midIndex = start + (end - start) / 2;
+            if (arr[midIndex] == target) return midIndex;
+            if (target < arr[midIndex]) {
+                if (isAscending) end = midIndex - 1;
+                else start = midIndex + 1;
+            } else {
+                if (isAscending) start = midIndex + 1;
+                else end = midIndex - 1;
             }
         }
         return -1;

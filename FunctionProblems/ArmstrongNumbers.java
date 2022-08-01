@@ -1,4 +1,4 @@
-package BasicQuestionsUsingFunctions;
+package FunctionProblems;
 
 import java.util.Scanner;
 

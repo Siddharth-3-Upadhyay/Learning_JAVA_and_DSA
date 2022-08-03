@@ -1,7 +1,8 @@
 /*
 Author: Siddharth Upadhyay
-Question: 852. Peak Index in a Mountain Array
+Question: 852. Peak Index in a Mountain Array && 162. Find Peak Element(Medium) LeetCode.
 Link: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+Link for 162.: https://leetcode.com/problems/find-peak-element/
  */
 
 package Arrays_ArrayList.ArrayProblems.SearchingProblems;
